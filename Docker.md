@@ -60,7 +60,6 @@ El Dockerfile se ejecuta mediante el comando `docker build`, que crea la imagen 
 10. **`VOLUME`**: Crea un punto de montaje para almacenar datos persistentes fuera del contenedor. Por ejemplo, **`VOLUME /data`** crea un volumen en el directorio "/data" del contenedor.
 11. **`ARG`**: Define argumentos que se pueden pasar a la imagen en tiempo de construcción. Pueden usarse para personalizar la construcción de la imagen sin modificar el Dockerfile directamente.
 
-
 ## **Docker Compose**
 
 Docker Compose es una herramienta que permite definir y gestionar aplicaciones multi-contenedor con Docker. Se utiliza principalmente en entornos de desarrollo, pruebas y despliegues de etapas, ya que permite definir un entorno completo para una aplicación en un solo archivo, y luego ejecutar la aplicación con un solo comando.
