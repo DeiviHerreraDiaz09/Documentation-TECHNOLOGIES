@@ -1,16 +1,16 @@
-# Documentación GitHub
+# **Documentación GitHub**
 
 > [!NOTE]
 > GIT es un sistema de control de versiones distribuido que permite a los desarrolladores trabajar juntos en proyectos de cualquier escala. Proporciona una forma de rastrear los cambios en el código fuente, permitiendo a los desarrolladores colaborar en proyectos sin pisar el trabajo del otro. GitHub, por otro lado, es una plataforma de colaboración y alojamiento de código para GIT que proporciona una interfaz gráfica y características adicionales como solicitudes de extracción y gestión de problemas. En esta sección, también trabajaremos en los comandos más utilizados en proyectos.
 
-## Comandos Generales
+## **Comandos Generales**
 
 **git init** - Inicializa un nuevo repositorio GIT en el directorio actual.
 
 **git remote add “Nombre de la conexión remota” “Url del repositorio”** - Enlazar repositorio local con uno remoto por medio de una conexión.
+
 - **git remote show** - Muestra información detallada sobre un repositorio remoto.
 - **git remote -v** - Muestra las URL de los repositorios remotos vinculados y sus nombres. Es útil para verificar las conexiones remotas configuradas.
-
 
 **git clone** - Copia un repositorio GIT remoto a un directorio local.
 
@@ -78,37 +78,37 @@
 
 1. **Accede al repositorio**: Abre una terminal o línea de comandos y navega hasta el directorio del repositorio Git para el cual deseas cambiar las credenciales.
 2. **Verifica la configuración actual**: Puedes verificar la configuración actual de Git para el repositorio local ejecutando el siguiente comando:
-    
-    ```markdown
-    git config --list
-    ```
-    
+
+   ```markdown
+   git config --list
+   ```
+
 3. **Cambia las credenciales**: Para cambiar las credenciales de manera local para este repositorio, puedes usar los siguientes comandos:
-    
-    ```bash
-    git config user.name "Tu nombre"
-    git config user.email "tu@email.com"
-    ```
-    
-    Esto configurará el nombre de usuario y la dirección de correo electrónico asociados con este repositorio específico. Estos detalles serán utilizados para las confirmaciones que hagas en este repositorio.
-    
+
+   ```bash
+   git config user.name "Tu nombre"
+   git config user.email "tu@email.com"
+   ```
+
+   Esto configurará el nombre de usuario y la dirección de correo electrónico asociados con este repositorio específico. Estos detalles serán utilizados para las confirmaciones que hagas en este repositorio.
+
 4. **Configura las credenciales de acceso remoto**: Si estás utilizando HTTPS para acceder al repositorio remoto y deseas cambiar las credenciales para este repositorio específico, puedes hacerlo eliminando las credenciales almacenadas en la caché. Esto te pedirá las credenciales la próxima vez que intentes acceder al repositorio. Ejecuta el siguiente comando para limpiar la caché:
-    
-    ```bash
-    git credential-cache exit
-    ```
-    
+
+   ```bash
+   git credential-cache exit
+   ```
+
 5. **Verifica la configuración**: Puedes verificar que las credenciales se han configurado correctamente ejecutando nuevamente el comando para mostrar la configuración de Git:
-    
-    ```bash
-    git config --list
-    ```
-    
-    Ahora tus credenciales están configuradas localmente para este repositorio específico y no afectarán las configuraciones globales de Git en tu sistema. Esto es útil si estás colaborando en múltiples proyectos y deseas usar diferentes identidades en cada uno.
 
-## VISUALIZACIÓN 
+   ```bash
+   git config --list
+   ```
 
-**gitk** - Software que visualiza historial de commits. 
+   Ahora tus credenciales están configuradas localmente para este repositorio específico y no afectarán las configuraciones globales de Git en tu sistema. Esto es útil si estás colaborando en múltiples proyectos y deseas usar diferentes identidades en cada uno.
+
+## VISUALIZACIÓN
+
+**gitk** - Software que visualiza historial de commits.
 
 **git reflog** - Visualizar todos los commits
 
