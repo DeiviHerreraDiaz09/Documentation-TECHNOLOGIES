@@ -5,7 +5,7 @@ Este repositorio contiene documentación sobre diferentes tecnologías, incluyen
 - `github`: Documentación sobre el uso de GitHub, incluyendo flujo de trabajo con repositorios.
 - `docker`: Documentación sobre Docker, incluyendo conceptos básicos, creación de imágenes, administración de contenedores.
 
-> [!NOTE]
+> [!NOTE] Forks
 > Esta documentación está en constante evolución y se agregarán más temas y tecnologías en el futuro. ¡Siéntete libre de contribuir con tu propio contenido o sugerencias!
 
 ---
