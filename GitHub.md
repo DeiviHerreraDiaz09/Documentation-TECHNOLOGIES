@@ -48,6 +48,8 @@
 
 **git reset —hard “Número/hash de commit”** - Se utiliza para deshacer cambios en un repositorio Git y restablecer el estado del proyecto al commit específico indicado por el "Número de commit”
 
+**git restore .** - Se utiliza para eliminar cambios realizados en el repositorio local antes de subir cambios al repositorio remoto
+
 ## MERGE / REBASE / DIFF
 
 **git merge** - Une dos o más historias de desarrollo juntas.
